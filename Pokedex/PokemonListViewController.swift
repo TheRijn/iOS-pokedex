@@ -20,7 +20,6 @@ class PokemonListViewController: UITableViewController, UISearchBarDelegate {
         
         URLSession.shared.dataTask(with: url) { (data, response, error) in
             guard let data = data else {
-                let a = 7
                 return
             }
             
